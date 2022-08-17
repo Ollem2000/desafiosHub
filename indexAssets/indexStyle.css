@@ -53,14 +53,6 @@ a
 	min-width: 400px;
 	margin: 100px 20px 20px 20px;
 }
-
-	@media (max-width: 700px)
-	{
-		.divCollectionMain
-		{
-			margin: 20px;
-		}
-	}
 	
 	.divCollectionContainer
 	{
@@ -82,3 +74,33 @@ a
 			clip-path: polygon(0 23%, 0 7%, 4% 0, 29% 0, 32% 7%, 60% 7%, 98% 7%, 100% 10%, 100% 100%, 15% 100%, 0 100%, 0% 85%);
 			height: 100px; width: 160px;
 		}
+
+
+@media (max-width: 700px)
+{
+	h1
+	{
+		font-size: 64px;
+		color: red;
+	}
+	
+	h2
+	{
+		font-size: 48px;
+	}
+	
+	p, a
+	{
+		font-size: 48px;
+	}
+
+	.divCollectionMain
+	{
+		margin: 20px;
+	}
+	
+		.divCollectionItem
+		{
+			height: 440; width: 500px;
+		}
+}
